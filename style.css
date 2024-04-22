@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body{
+  min-height: 100vh;
+  font-family: 'sans';
+  margin: 0 auto;
+  color: white;
+}
+
+h3{
+  background-color: blue;
+  top: 0;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar{
+  background-color: orange;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  padding: 5px;
+  z-index: 1;
+}
+
+.sidebar ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.sidebar ul li{
+  padding: 5px 0;
+}
+
+.sidebar input,
+.sidebar button{
+  cursor: pointer;
+  text-align: center;
+  width: 50px;
+}
+
+.sidebar li:last-of-type{
+  margin-top: auto;
+}
+
+.sidebar button{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sidebar label{
+  display: block;
+  font-size: 12px;
+}
+
+button{
+  background-color: black !important;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10%;
+  border: none;
+  outline: none;
+}
+
+button:active{
+  background-color: #1e8e3e !important;
+}
+
+.sidebar .radio{
+  display: flex;
+  align-items: center;
+  margin-left: -15px;
+}
+
+.checkboxContainer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"]{
+  width: 30px;
+}
